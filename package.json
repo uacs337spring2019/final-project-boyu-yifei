@@ -1,0 +1,14 @@
+{
+  "name": "finalbattleship",
+  "version": "1.0.0",
+  "description": "final project for Boyu and Yifei",
+  "main": "battleship_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "try"
+  ],
+  "author": "Yifei and Boyu",
+  "license": "ISC"
+}
