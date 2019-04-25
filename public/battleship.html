@@ -1,0 +1,42 @@
+<!--
+	CSc 337, Final Project (Battleship)
+	this is a one person battle ship game
+	the robot can random the ships and the user can click(hit) the ships.
+	it will also get the ranked data from database and show on the website.
+	By: Boyu Li, Yifei Chen
+	-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Battleship</title>
+	<link rel="stylesheet" type="text/css" href="battleship.css">
+	<script type="text/javascript" src="battleship.js"></script>
+</head>
+<body>
+	<h1>Battleship game 2.0</h1>
+	<p>This is a BattleShip game<br> You need to sink all five enemy ships.<br>
+		The time you spend will be recorded.<br>
+		If you fill in your name then you can see your ranking.<br>
+		--By Boyu Li, Yifei Chen.
+	</p>
+	
+	<button id="startGame">Start Game</button>
+	<div id="enemy">
+		<div id="rank">
+			<p>Your Name Here:</p>
+			<input type="text" id="username">
+			<p>Ranking list with Top 10:</p>
+			<ol id = "rankList"></ol>
+		</div>
+		<div id="enemytable">
+			
+		</div>
+	</div>
+	<div id="w3c">
+		<a href="https://webster.cs.washington.edu/validate-html.php">
+			<img src="http://allisonobourn.com/337/spring19/images/w3c-html.png" alt="Valid HTML"></a>
+		<a href="https://webster.cs.washington.edu/validate-css.php">
+			<img src="http://allisonobourn.com/337/spring19/images/w3c-css.png" alt="Valid CSS"></a>
+	</div>
+</body>
+</html>

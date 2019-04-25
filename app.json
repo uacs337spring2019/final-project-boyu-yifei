@@ -1,8 +1,7 @@
 {
   "name": "battleship game website",
   "description": "play battle ship game with AI",
-  "repository": "https://github.com/uacs337spring2019/final-project-boyu-yifei",
-  "logo": ""
-  ,
+  "repository": "https://github.com/JackChenQAQ/battleship-Yifei-Boyu",
+  "logo": "",
   "keywords": ["game", "battleship", "csc337"]
 }

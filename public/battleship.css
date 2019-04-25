@@ -1,0 +1,83 @@
+/**  
+CSC 337, Spring 2019
+this is a battleship css file.
+It's linked to battleship.html file. 
+use to control some properties in a webpage
+By: Boyu Li, Yifei Chen
+*/
+body{
+	
+	background-size: 100% 100%; 
+	background-repeat: no-repeat; 
+	background-image: url("img/bg.jpg");
+	text-align: center;
+	font-family: "cursive";
+	font-size: 14pt;
+}
+#enemy{
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	
+}
+#w3c{
+	float: left;
+}
+#enemytable{
+	background-image: url("img/tablebg.jpeg");
+	background-size: 430px 430px;
+	background-repeat: no-repeat; 
+	position: relative;
+	width: 430px;
+	height: 430px;
+}
+#rank{
+	background-image: url("img/tablebg.jpeg");
+	background-repeat: no-repeat; 
+	position:relative;
+	width: 180px;
+	height: 480px;
+	margin-right:10px;
+	border: 2px solid cyan;
+	border-radius: 50px;
+}
+#enemytable span{
+	position: absolute;
+	display: block;
+	width: 43px;
+    height: 43px;
+    
+}
+#enemytable .rect{
+	color:rgba(0,0,0,0);
+	background-size: 100% auto; 
+	background-repeat: no-repeat; 
+	font-size: 10pt;
+	text-align: center;
+	margin: auto;
+	border: 1.5px solid black;
+}
+#startGame{
+	margin: 3em;
+}
+button {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: #EEEEEE;
+	background-color: #25567B;
+	border: none;
+	margin: 1em auto 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+	button:hover {
+		cursor: pointer;
+		background-color:#99C2E1
+	}
+	button:active {
+		background-color: #99C2E1;
+	}
+
+.hidden {
+    display: none;
+}
