@@ -285,6 +285,10 @@ By: Boyu Li, Yifei Chen
         
     /** start the game*/
     function start(){
+        getRank();
+        setUp("enemytable");
+        let shipLocation = randomShipPlace();
+        addNewData(shipLocation,  "AI");
 		document.getElementById("enemytable").onmouseover = turnRed;
         document.getElementById("enemytable").onclick = clicking;
         document.getElementById("enemytable").onmouseout = turnBlack;
